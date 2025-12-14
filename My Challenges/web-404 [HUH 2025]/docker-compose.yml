@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      FLAG: 'flag{th1s_he4d3r_w4s_n0t_f0und!}' # dear organizer, change this in the provided files :) 
+      CHUNK_SIZE: 6 # flag chunks (size in characters)
+    restart: unless-stopped
