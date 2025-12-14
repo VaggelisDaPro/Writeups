@@ -15,4 +15,5 @@ In that directory, I will be adding writeups of CTF events here and there *(if I
 Either way, they can all be found under the `Other Challenges` directory following this format:
 
 `CTF name`
+
 └──`category`-`name`
